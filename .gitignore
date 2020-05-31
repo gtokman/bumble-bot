@@ -92,3 +92,5 @@ dist/
 Google/
 
 .DS_Store
+ 
+.vscode

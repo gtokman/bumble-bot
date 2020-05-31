@@ -14,3 +14,9 @@
 * Express
 * Dotenv
 * Body parser
+
+### Issues
+* Sometimes chromium is not installed properly in *node_modules*, if you see an error when running `yarn dev` add this in the [launch args](src/app.js).
+  ```
+  executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' // path to local chromium
+  ```
