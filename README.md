@@ -7,6 +7,7 @@
 * Clone repo
 * `yarn install`
 * `yarn dev` to run dev env
+* add a `.env` at the project root with `phoneNumber` and `password` set
 
 ### Dependencies
 * Puppeteer for UI testing
@@ -20,3 +21,6 @@
   ```
   executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' // path to local chromium
   ```
+
+### Support
+Buy Me A [Coffee](https://buymeacoff.ee/buildswiftapps) ☕️
