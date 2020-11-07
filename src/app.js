@@ -55,7 +55,9 @@ async function run() {
       await page.keyboard.press("Enter");
     }, 9000);
 
-    await page.waitForNavigation();
+    console.log("waiting 3")
+    await page.waitFor(9000)
+    console.log("done")
     const likeSelector = "div[data-qa-role=encounters-action-like]";
     for (var i = 0; i < 100; i++) {
       try {
